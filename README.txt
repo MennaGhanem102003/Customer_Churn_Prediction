@@ -1,17 +1,19 @@
-# 📊 Customer Churn Prediction
+ 📊 Customer Churn Prediction
+=====================================================================================================================================================================================================
 
 This project focuses on building and evaluating machine learning models to predict customer churn based on various demographic and service-related features. It involves end-to-end steps from data preprocessing, exploratory data analysis (EDA), model building, hyperparameter tuning, and insights generation.
 
 ---
-
-## 📂 Project Structure
+📂 Project Structure
+=========================================================================================================================================================================================
 - `notebook.ipynb`: The main Jupyter Notebook containing EDA, preprocessing, modeling, and evaluation.  
 - `label_encoders.pkl`: Pickled encoders used for transforming categorical features.  
 - `README.md`: Project documentation.  
 
 ---
 
-## 📑 Dataset Overview
+📑 Dataset Overview
+==========================================================================================================================================================================================================
 The dataset contains information about telecom customers, including:  
 - **Demographics** (e.g., gender, senior citizen status)  
 - **Account information** (e.g., contract type, payment method)  
@@ -20,7 +22,8 @@ The dataset contains information about telecom customers, including:
 
 ---
 
-## 🧹 Data Preprocessing
+🧹 Data Preprocessing
+===================================================================================================================================================================================================================
 - Converted `TotalCharges` to numeric and handled missing values.  
 - Encoded categorical variables using `LabelEncoder`.  
 - Scaled numerical features using `StandardScaler`.  
@@ -28,7 +31,8 @@ The dataset contains information about telecom customers, including:
 
 ---
 
-## 🔎 Exploratory Data Analysis (EDA)
+🔎 Exploratory Data Analysis (EDA)
+====================================================================================================================================================================================================================
 - **Distribution Analysis**: Tenure and TotalCharges show skewed or segmented patterns.  
 - **Correlation Matrix**: Strong positive correlation between tenure and total charges.  
 - **Churn Patterns**:  
@@ -37,14 +41,16 @@ The dataset contains information about telecom customers, including:
 
 ---
 
-## 💡 Actionable Insights
+💡 Actionable Insights
+=====================================================================================================================================================================================================================
 - Focus retention efforts on new users and high-paying customers.  
 - Provide loyalty rewards for long-term customers.  
 - Consider pricing experiments for sensitive segments.  
 
 ---
 
-## 🤖 Modeling
+🤖 Modeling
+=====================================================================================================================================================================================================================
 The following models were trained and tuned using **GridSearchCV**:  
 - Logistic Regression  
 - Random Forest  
